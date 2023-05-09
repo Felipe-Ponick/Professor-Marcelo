@@ -1,0 +1,86 @@
+body{
+    background-color: #48CCFC;
+    text-align: center;
+}
+
+#mario{
+margin-top: 150px;
+width: 200px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 280px;
+    height: 180px;
+
+}
+
+button{
+    background-color: #3ACC76;
+    margin-top: 5px;
+    width: 260px;
+    height: 30px;
+    border: 0;
+    color: white;
+}
+
+#usuario{
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+
+}
+
+#senha{
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#link1{
+   margin-right: 65px ;
+}
+
+#paragrafo{
+    color: white;
+}
+
+h3{
+    color: white    ;
+}
+
+#email{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#Pais{
+    width: 255px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#nome{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#Login{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#cancel{
+    background-color: red;
+    color: white;
+}
+
+#form3{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 280px;
+    height: 340px;
+
+}
