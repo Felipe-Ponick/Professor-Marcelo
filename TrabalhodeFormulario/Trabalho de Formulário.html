@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            margin: 0 auto;
+        }
+        
+        body{
+            background-color: black;
+        }
+        h1{
+            color: whitesmoke;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        fieldset{
+            background-color:  white ;
+        }
+        .container{
+            background-color: black;
+            width: 420px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome</label>.
+            <input type="text" name="nome" placeholder="Digite seu nome...">
+            <br>
+            <label for="endereço">Endereço:</label>
+            <input type="text" name="endereço" placeholder="Digite seu endereço...">
+            <br>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" placeholder="Informe sua cidade..."> 
+            <br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estados">
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Acre">Acre</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Pará">Pará</option>
+                <option value="Parana">Parana</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            </select>    
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="cargo">Natureza do Cargo</label>
+            <br>
+            <input type="radio" name="cargo" id="cargo">Gerência
+            <input type="radio" name="cargo" id="cargo">Financeira
+            <input type="radio" name="cargo" id="cargo">Recepção
+            <input type="radio" name="cargo" id="cargo">Administrativo
+            <input type="radio" name="cargo" id="cargo">Jurídico
+            <br>
+            <br>            
+            <label for="">Área de Interesse</label>
+            <br>
+            <input type="checkbox" name="Computação" id="Computação" value="Computação">Computação
+            <input type="checkbox" name="Biologia" id="Biologia" value="Biologia">Biologia
+            <input type="checkbox" name="Meio Ambiente" id="Meio Ambiente" value="Meio Ambiente">Meio Ambiente
+            <input type="checkbox" name="Engenharia" id="Engenharia" value="Engenharia">Engenharia
+            <input type="checkbox" name="História" id="História" value="História">História
+            <br>
+            <label for="grande">Mini-currículo:</label>
+            <textarea name="grande" id="grande"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+
+        </fieldset>
+    </div>
+
+
+</body>
+</html>
