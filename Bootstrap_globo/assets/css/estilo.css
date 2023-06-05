@@ -1,0 +1,64 @@
+h1{
+    font-size: 40px;
+    color: #C00E18;
+}
+
+ul{
+color:  #C00E18;
+}
+
+img{
+    border-radius: 10px;
+}
+
+p{
+    color: black;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#verde{
+    color:#21AB4C;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#laranja{
+    color: #FA6821;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#peixes{
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: #212FFC;
+}
+
+a{
+    color: white;
+    padding-left: 150px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+#copy {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -80px;
+}
+
+#t{
+    margin-left: 290px;
+    margin-top: -120px;
+}
+
+#i{
+    margin-top: 20px;
+    margin-left: 300px;
+}
