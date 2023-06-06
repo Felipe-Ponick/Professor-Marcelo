@@ -1,39 +1,89 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formações academicas</title>
-    <link href="estilo.css" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <header class="blog-header py-3">
-          <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
-              <a class="btn btn-sm btn-outline-secondary" href="index3.html" target="_parent">Contato</a>
-            </div>
-            <div class="col-4 text-center">
-              <a class="blog-header-logo text-dark" href="index.html" target="_parent"> <strong>Página ínicial</strong></a>
-            </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
-              <a class="btn btn-sm btn-outline-secondary" href="index2.html" target="_parent">Formações academicas</a>
-            </div>
-          </div>
-        </header>
-        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-          <div class="col-md-6 px-0">
-            <h1 class="display-4 font-poppins"> Formações académicas </h1>
-            <br>
-            <ul>
-              <li> Ensino Fundamental Completo 📓 </li>
-              <li> Cursando Ensino Médio ✏️ </li>
-              <li> Cursando Técnico de Informática 🖊️</li>
-              <li id="pequeno"> (Conhecimento em CSS e HTMl) </li>
-            </ul>
-          </div>  
-</body>
-</html>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Bootstrap Example</title>
+    
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <a id="" class="navbar-brand" href="#">Site Pessoal</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index2.html">Contato<span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index3.html">Formação</a>
+          </li>
+    </nav>  
+    <img id="banner" src="assets/img/pretoebranco.jpg" class="img-fluid" alt="Imagem responsiva" width="100% \9;" >
+    <br>
+    <br>
+    <h1 id="titcont">Entre em contato com o formulário abaixo:</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Endereço 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputEstado">Estado</label>
+          <select id="inputEstado" class="form-control">
+            <option selected>Escolher...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputCEP">CEP</label>
+          <input type="text" class="form-control" id="inputCEP">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Salvar
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar solicitação de contato</button>
+    </form>
+    
+    <!-- End Example Code -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+  </body>
+</html
